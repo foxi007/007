@@ -63,9 +63,71 @@
         <p>提货时间：10月30号</p>
         <span>￥28.8</span>
         <i>已售2020件</i>
-        <div class="onc-c"></div>
+        <div class="once-c">
+          <p>+加入购物车</p>
+        </div>
+      </div>
+      <div class="once-a">
+        <div class="once-b"></div>
+        <h3>语农 散装土鸡蛋 360枚 40斤</h3>
+        <p>提货时间：10月30号</p>
+        <span>￥28.8</span>
+        <i>已售2020件</i>
+        <div class="once-c">
+          <p>+加入购物车</p>
+        </div>
+      </div>
+      <div class="once-a">
+        <div class="once-b"></div>
+        <h3>语农 散装土鸡蛋 360枚 40斤</h3>
+        <p>提货时间：10月30号</p>
+        <span>￥28.8</span>
+        <i>已售2020件</i>
+        <div class="once-c">
+          <p>+加入购物车</p>
+        </div>
+      </div>
+      <div class="tow">
+        <p>》》每日精选好货《《</p>
+      </div>
+      <div class="tow-a">
+        <div class="tow-b"></div>
+        <div class="tow-c"></div>
+        <div class="tow-d"></div>
+      </div>
+      <div class="once-a">
+        <div class="once-b"></div>
+        <h3>语农 散装土鸡蛋 360枚 40斤</h3>
+        <p>提货时间：10月30号</p>
+        <span>￥28.8</span>
+        <i>已售2020件</i>
+        <div class="once-c">
+          <p>+加入购物车</p>
+        </div>
+      </div>
+      <div class="once-a">
+        <div class="once-b"></div>
+        <h3>语农 散装土鸡蛋 360枚 40斤</h3>
+        <p>提货时间：10月30号</p>
+        <span>￥28.8</span>
+        <i>已售2020件</i>
+        <div class="once-c">
+          <p>+加入购物车</p>
+        </div>
+      </div>
+      <div class="once-a">
+        <div class="once-b"></div>
+        <h3>语农 散装土鸡蛋 360枚 40斤</h3>
+        <p>提货时间：10月30号</p>
+        <span>￥28.8</span>
+        <i>已售2020件</i>
+        <div class="once-c">
+          <p>+加入购物车</p>
+        </div>
       </div>
     </div>
+
+    <div class="div"></div>
     <Footer></Footer>
   </div>
 </template>
@@ -152,36 +214,91 @@ export default {
   width: 100%;
   min-height: 500px;
   background: chartreuse;
+  padding-top: 10px;
   .once-a {
     width: 90%;
     height: 300px;
     margin-left: 5%;
     background: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
     .once-b {
       height: 200px;
       background: cyan;
       border-radius: 10px;
     }
-    h3{
+    h3 {
       margin-left: 5px;
     }
-    p{
+    p {
       font-size: 14px;
       margin-left: 5px;
     }
-    span{
+    span {
       color: red;
       font-size: 28px;
       font-weight: 600;
     }
-    i{
+    i {
       font-size: 16px;
     }
-    .once-c{
+    .once-c {
       width: 100px;
       height: 30px;
-      background: darkorange;
+      float: right;
+      background: red;
+      border-radius: 30px;
+      margin-right: 5px;
+      p {
+        line-height: 30px;
+        text-align: center;
+        color: antiquewhite;
+        font-size: 14px;
+      }
     }
   }
+}
+.tow {
+  width: 100%;
+  height: 40px;
+  p {
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+.tow-a {
+  width: 90%;
+  height: 300px;
+  background: blueviolet;
+  margin-left: 5%;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  .tow-b {
+    height: 290px;
+    width: 49%;
+    border-radius: 10px;
+    background: aqua;
+    margin-left: 5px;
+    float: left;
+  }
+  .tow-c {
+    width: 46%;
+    height: 47%;
+    float: right;
+    background: bisque;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+  .tow-d {
+    width: 46%;
+    height: 47%;
+    float: right;
+    background: bisque;
+    border-radius: 10px;
+  }
+}
+.div {
+  height: 100px;
 }
 </style>
